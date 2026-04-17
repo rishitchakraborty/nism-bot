@@ -82,7 +82,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               {/* <img src={logo} alt={`${companyName} Logo`} className="block size-6 dark:hidden" /> */}
                <img
-                style={{ height: '3em', width: '11em' }}
+                style={{ height: '3em', width: '16em' }}
                 src="https://www.nism.ac.in/wp-content/uploads/2024/07/NISM-Logo-PNG.png"
                 alt="Quarkgen Logo"
                 className="block size-6"
