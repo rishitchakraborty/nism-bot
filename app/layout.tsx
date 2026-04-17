@@ -83,7 +83,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
               {/* <img src={logo} alt={`${companyName} Logo`} className="block size-6 dark:hidden" /> */}
                <img
                 style={{ height: '3em', width: '11em' }}
-                src="https://freyrenergy.com/wp-content/uploads/2025/07/freyr-logo.png"
+                src="https://www.nism.ac.in/wp-content/uploads/2024/07/NISM-Logo-PNG.png"
                 alt="Quarkgen Logo"
                 className="block size-6"
               />
