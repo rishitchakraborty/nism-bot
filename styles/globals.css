@@ -122,3 +122,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+.quarkgenLogoStyle {
+  width: auto !important;
+  height: 45px !important
+}

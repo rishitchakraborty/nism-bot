@@ -87,6 +87,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
                 alt="Quarkgen Logo"
                 className="block size-6"
               />
+
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={logoDark ?? logo}
@@ -94,17 +95,15 @@ export default async function RootLayout({ children }: RootLayoutProps) {
                 className="hidden size-6 dark:block"
               />
             </a>
-            <span className="text-foreground font-mono text-xs font-bold tracking-wider uppercase">
-              Built with{' '} QUARKGEN AI
-              {/* <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://docs.livekit.io/agents"
-                className="underline underline-offset-4"
-              >
-                LiveKit Agents
-              </a> */}
-            </span>
+            <div className="">
+              <img
+                style={{ height: '3em', width: '11em' }}
+                src="https://www.quarkgen.ai/assets/images/main-logo.png"
+                alt="Quarkgen Logo"
+                className="quarkgenLogoStyle mb-2"
+              />
+              <p className='mr-3 text-foreground font-mono text-xs font-bold tracking-wider uppercase' >Built with{' '} QUARKGEN AI</p>
+            </div>
           </header>
 
           {children}
